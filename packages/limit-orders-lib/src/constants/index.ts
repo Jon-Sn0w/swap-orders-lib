@@ -13,6 +13,7 @@ export const CHAIN_ID = {
   MATIC: 137,
   FANTOM: 250,
   AVAX: 43114,
+  SONGBIRD: 19,
 };
 
 export const BPS_GELATO_FEE = {
@@ -22,6 +23,8 @@ export const BPS_GELATO_FEE = {
   [CHAIN_ID.BSC]: 10,
   [CHAIN_ID.AVAX]: 10,
   [CHAIN_ID.CRONOS]: 10,
+  [CHAIN_ID.SONGBIRD]: 10,
+
 };
 
 export const STOP_LIMIT_SLIPPAGE_BPS = {
@@ -32,6 +35,7 @@ export const STOP_LIMIT_SLIPPAGE_BPS = {
   [CHAIN_ID.BSC]: 500,
   [CHAIN_ID.AVAX]: 500,
   [CHAIN_ID.CRONOS]: 500,
+  [CHAIN_ID.SONGBIRD]: 500,
 };
 
 export const LIMIT_ORDER_SLIPPAGE = {
@@ -42,6 +46,7 @@ export const LIMIT_ORDER_SLIPPAGE = {
   [CHAIN_ID.BSC]: 40,
   [CHAIN_ID.AVAX]: 40,
   [CHAIN_ID.CRONOS]: 40,
+  [CHAIN_ID.SONGBIRD]: 40,
 };
 
 export const HANDLERS_ADDRESSES = {
